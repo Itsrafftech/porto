@@ -1,61 +1,118 @@
-# Portofolio Web — [Faris Edrik P / rissss21]
+# Portfolio Website — Rafi Al Arifi
 
-Selamat datang di portofolio web pribadi saya! 🌐  
-Dibuat dengan React + Vite, ini adalah showcase dari project, skill, dan karya yang ingin saya bagikan.
+Selamat datang di repository **Portfolio Website** saya.
+Website ini dibuat sebagai tempat untuk menampilkan **project, skill, dan perjalanan saya sebagai developer**.
 
-##  Struktur Project
+Project ini dibangun menggunakan **React + Vite** untuk memberikan performa yang cepat, modern, dan ringan.
 
-- `public/` — file statis (favicon, assets, dsb.)  
-- `src/` — code utama React (komponen, utilitas, dsb.)  
-- `index.html` — entry point halaman web  
-- `package.json` & `package-lock.json` — manajemen dependencies dan script  
-- `vite.config.js` — konfigurasi build dan dev server Vite  
-- `eslint.config.js` — aturan linting agar kodenya tetap bersih dan konsisten  
+## Tech Stack
 
-##  Fitur Utama
+Project ini menggunakan teknologi berikut:
 
-- Dibangun dengan **React + Vite** — ringan, cepat reload, dan performa build optimal  
-- **ESLint** telah terkonfigurasi agar coding style tetap rapi  
-- Struktur modular dan siap dikembangkan—bisa ditambahkan halaman “About”, “Projects”, dsb.
-
-##  Cara Jalankan
-
-1. Clone repository ini:
-```bash
-git clone https://github.com/rissss21/portofolio.git
-cd portofolio
-````
-
-2. Install dependencies:
-```bash
-npm install
-````
-
-3. Jalankan server lokal dengan hot reload:
-```bash
-npm run dev
-````
-
-4. Buat versi production:
-```bash
-npm run build
-````
-
-## &#x20;Quick Preview
-
-Jika sudah di-deploy (contoh: GitHub Pages, Netlify, Vercel), kamu bisa tambahkan link deploy di sini, misalnya:
-[🔗 Lihat versi live](https://username.github.io/portofolio/)
-
-## Tentang Saya
-
-Hai, saya Faris Edrik P (username GitHub: `rissss21`).
-Saya seorang Developer yang suka bikin aplikasi web ringan dengan tampilan modern dan performa tinggi. Scroll aja di project saya, dan jangan sungkan untuk reach out kalau ada pertanyaan!
-
-* **Email:** [email\_farisedrik21@gmail.com](mailto:email_farisedrik21@gmail.com)
-* **LinkedIn:** [linkedin.com/in/farisedp](https://www.linkedin.com/in/farisedp/)
-* **Instagram:** @farisedrikprayoga
+* **React** — Library JavaScript untuk membangun user interface
+* **Vite** — Build tool modern dengan hot module replacement yang sangat cepat
+* **JavaScript (ES6+)**
+* **CSS / Tailwind / Custom Styling**
+* **ESLint** — Menjaga konsistensi dan kualitas kode
 
 ---
 
+## Struktur Project
 
-[1]: https://github.com/rissss21/portofolio "GitHub - rissss21/portofolio"
+```
+portfolio/
+│
+├── public/          # File statis (favicon, gambar, dll)
+├── src/             # Source code utama React
+│   ├── components/  # Komponen UI
+│   ├── assets/      # Gambar dan resource
+│   ├── pages/       # Halaman website
+│   └── main.jsx     # Entry React
+│
+├── index.html       # Entry point aplikasi
+├── package.json     # Dependencies dan scripts
+├── vite.config.js   # Konfigurasi Vite
+└── eslint.config.js # Aturan linting
+```
+
+---
+
+## ⚙️ Cara Menjalankan Project
+
+### 1. Clone Repository
+
+```
+git clone https://github.com/itsrafftech/portfolio.git
+cd portfolio
+```
+
+### 2. Install Dependencies
+
+```
+npm install
+```
+
+### 3. Jalankan Development Server
+
+```
+npm run dev
+```
+
+Project akan berjalan di:
+
+```
+http://localhost:5173
+```
+
+### 4. Build untuk Production
+
+```
+npm run build
+```
+
+---
+
+## 🌐 Live Preview
+
+Jika sudah di-deploy, website bisa diakses melalui:
+
+```
+https://your-portfolio.vercel.app
+```
+
+---
+
+## About Me
+
+Halo, saya **Rafi Al Arifi**.
+
+Saya adalah seorang **Web Developer** yang tertarik pada pengembangan aplikasi web modern, performa tinggi, dan desain antarmuka yang bersih.
+
+Saya sedang terus mengembangkan skill dalam:
+
+* Frontend Development
+* Backend Development
+* Web Performance
+* Modern JavaScript Framework
+
+Portfolio ini dibuat sebagai tempat untuk mendokumentasikan **project dan perkembangan saya sebagai developer.**
+
+---
+
+## 📫 Contact
+
+Jika ingin berdiskusi atau bekerja sama, silakan hubungi saya melalui:
+
+Email
+[itsrafftech@gmail.com](mailto:itsrafftech@gmail.com)
+
+LinkedIn
+https://linkedin.com/in/rafialarifi
+
+Instagram
+@rafiallll22
+
+---
+
+⭐ Jika project ini menarik, jangan lupa beri **star** di repository ini.
+Terimakasih Source Code : rissss21

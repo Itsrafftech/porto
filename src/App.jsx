@@ -2,10 +2,7 @@ import { useRef, useState, useEffect } from "react";
 import ProfileCard from "./components/ProfileCard/ProfileCard";
 import ShinyText from "./components/ShinyText/ShinyText";
 import BlurText from "./components/BlurText/BlurText";
-import ScrambledText from "./components/ScrambledText/ScrambledText";
-import SplitText from "./components/SplitText/SplitText";
 import Lanyard from "./components/Lanyard/Lanyard";
-import GlassIcons from "./components/GlassIcons/GlassIcons";
 import { listTools, listProyek } from "./data";
 import ChromaGrid from "./components/ChromaGrid/ChromaGrid";
 import ProjectModal from "./components/ProjectModal/ProjectModal"; // <-- IMPORT MODAL
@@ -31,16 +28,16 @@ function App() {
   };
   // -------------------------
 
-  useEffect(() => {
-    const isReload =
-      performance.getEntriesByType("navigation")[0]?.type === "reload";
+//  useEffect(() => {
+//   const isReload =
+//      performance.getEntriesByType("navigation")[0]?.type === "reload";
 
-    if (isReload) {
-      // Ambil path tanpa hash
-      const baseUrl = window.location.origin + "/portofolio/";
-      window.location.replace(baseUrl);
-    }
-  }, []);
+//    if (isReload) {
+//      // Ambil path tanpa hash
+//      const baseUrl = window.location.origin + "/portofolio/";
+//      window.location.replace(baseUrl);
+//    }
+//  }, []);
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -75,14 +72,14 @@ function App() {
         <div className="hero grid md:grid-cols-2 items-center pt-10 xl:gap-0 gap-6 grid-cols-1">
           <div className="animate__animated animate__fadeInUp animate__delay-3s">
             <div className="flex items-center gap-3 mb-6 bg bg-zinc-800 w-fit p-4 rounded-2xl">
-              <img src="./assets/faris1.png" className="w-10 rounded-md" />
-              <q>Avoid or just undertake it</q>
+              <img src="./assets/fotosmuray1.png" className="w-10 rounded-md" />
+              <q>Make things happen</q>
             </div>
             <h1 className="text-5xl font-bold mb-6">
-              <ShinyText text="Hi I'm Faris Edrik Prayoga" disabled={false} speed={3} className='custom-class' />
+              <ShinyText text="Hi I'm Muhammad Rafi Al Arifi" disabled={false} speed={3} className='custom-class' />
             </h1>
             <BlurText
-              text="A passionate application and web developer dedicated to crafting modern, high-performance digital experiences through innovative and user-friendly solutions."
+              text="A passionate web developer who enjoys creating modern, high-performance applications and intuitive digital experiences."
               delay={150}
               animateBy="words"
               direction="top"
@@ -90,8 +87,8 @@ function App() {
             />
             <div className="flex items-center sm:gap-4 gap-2">
               <a 
-                href="./assets/CV.pdf" 
-                download="Faris_Edrik_Prayoga_CV.pdf" 
+                href="./assets/CV1.pdf" 
+                download="Muhammad_Rafi_Al_Arifi_CV.pdf" 
                 className="font-semibold bg-[#1a1a1a] p-4 px-6 rounded-full border border-gray-700 hover:bg-[#222] transition-colors"
               >
                 <ShinyText text="Download CV" disabled={false} speed={3} className="custom-class" />
@@ -105,12 +102,12 @@ function App() {
           </div>
           <div className="md:ml-auto animate__animated animate__fadeInUp animate__delay-4s">
             <ProfileCard
-              name="Faris Edrik P"
+              name="Rafi Al"
               title="Web Developer"
-              handle="farisedrikp"
+              handle="rafiallll22"
               status="Online"
               contactText="Contact Me"
-              avatarUrl="./assets/faris.png"
+              avatarUrl="./assets/fotosmuray.png"
               showUserInfo={true}
               enableTilt={true}
               enableMobileTilt={false}
@@ -129,7 +126,7 @@ function App() {
                 </h2>
 
                 <BlurText
-                  text="I’m Faris Edrik Prayoga, a full-stack developer passionate about building modern, high-performance applications with an intuitive user experience. I enjoy working with the latest technologies like Artificial Intelligence, Machine Learning, and cloud-based development, blending creativity with precision to deliver impactful solutions. With over three years of experience and more than 20 completed projects, I’m committed to helping users and businesses grow in the digital era through functional, aesthetic, and scalable digital products."
+                  text="I’m Muhammad Rafi Al Arifi, a computer science student who is passionate about software development and building useful digital products. I enjoy learning both front-end and back-end technologies, and I’m currently expanding my skills in full-stack development. I like creating modern web applications with clean design and good user experience while continuously improving my technical skills. I’m especially interested in technology, problem solving, and building projects that can have real impact in the digital world."
                   delay={150}
                   animateBy="words"
                   direction="top"
@@ -139,19 +136,19 @@ function App() {
                 <div className="flex flex-col sm:flex-row items-center sm:justify-between text-center sm:text-left gap-y-8 sm:gap-y-0 mb-4 w-full">
                   <div>
                     <h1 className="text-3xl md:text-4xl mb-1">
-                      20<span className="text-violet-500">+</span>
+                      3<span className="text-violet-500">+</span>
                     </h1>
                     <p>Project Finished</p>
                   </div>
                   <div>
                     <h1 className="text-3xl md:text-4xl mb-1">
-                      3<span className="text-violet-500">+</span>
+                      1<span className="text-violet-500">+</span>
                     </h1>
                     <p>Years of Experience</p>
                   </div>
                   <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600" data-aos-once="true">
                     <h1 className="text-3xl md:text-4xl mb-1">
-                      3.81<span className="text-violet-500">/4.00</span>
+                      3.89<span className="text-violet-500">/4.00</span>
                     </h1>
                     <p>GPA</p>
                   </div>
@@ -159,7 +156,7 @@ function App() {
 
 
                 <ShinyText
-                  text="Working with heart, creating with mind."
+                  text="Learning, building, and creating technology that makes an impact."
                   disabled={false}
                   speed={3}
                   className="text-sm md:text-base text-violet-400"
@@ -256,7 +253,7 @@ function App() {
             {/* Contact Form di kanan */}
             <div className="flex-1">
               <form
-                action="https://formsubmit.co/rissoppa21@gmail.com"
+                action="https://formsubmit.co/itsrafftech@gmail.com"
                 method="POST"
                 className="bg-zinc-800 p-10 w-full rounded-md"
                 autoComplete="off"

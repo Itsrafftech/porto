@@ -14,10 +14,10 @@ import Tools5 from "/assets/tools/bootstrap.png";
 import Tools6 from "/assets/tools/js.png";
 import Tools7 from "/assets/tools/nodejs.png";
 import Tools8 from "/assets/tools/github.png";
-import Tools9 from "/assets/tools/ai.png";
+import Tools9 from "/assets/tools/python.png";
 import Tools10 from "/assets/tools/canva.png";
 import Tools11 from "/assets/tools/figma.png";
-import Tools12 from "/assets/tools/kotlin.png";
+import Tools12 from "/assets/tools/laravel.png";
 import Tools13 from "/assets/tools/firebase.png";
 import Tools14 from "/assets/tools/html.png";
 import Tools15 from "/assets/tools/css.png";
@@ -87,8 +87,8 @@ export const listTools = [
   {
     id: 9,
     gambar: Tools9,
-    nama: "Adobe Illustrator",
-    ket: "Design App",
+    nama: "Python",
+    ket: "Languange",
     dad: "900",
   },
   {
@@ -108,8 +108,8 @@ export const listTools = [
   {
     id: 12,
     gambar: Tools12,
-    nama: "Kotlin",
-    ket: "Language",
+    nama: "Laravel",
+    ket: "Framework",
     dad: "1200",
   },
   {
@@ -163,78 +163,54 @@ export const listTools = [
   },
 ];
 
-import Proyek1 from "/assets/proyek/proyek1.jpg";
-import Proyek2 from "/assets/proyek/proyek2.jpg";
-import Proyek3 from "/assets/proyek/proyek3.jpg";
-import Proyek4 from "/assets/proyek/proyek4.jpg";
-import Proyek5 from "/assets/proyek/proyek5.jpg";
-import Proyek6 from "/assets/proyek/proyek6.jpg";
+import Proyek1 from "/assets/proyek/artikel.png";
+import Proyek2 from "/assets/proyek/proyekberita.png";
+import Proyek3 from "/assets/proyek/proyekstocks.png";
+import Proyek4 from "/assets/proyek/proyekweb.png";
 
 export const listProyek = [
   {
     id: 1,
     image: Proyek1,
-    title: "AIS Detection App",
-    subtitle: "A mobile application powered by Artificial Intelligence...",
-    fullDescription:"A mobile application powered by Artificial Intelligence and Machine Learning, developed to assist in the early detection of Adolescent Idiopathic Scoliosis (AIS). By analyzing patient data and patterns, the app provides predictions that can help doctors and patients take preventive measures. This project demonstrates the role of AI in modern healthcare by improving accuracy, accessibility, and efficiency in medical diagnosis.",
+    title: "Artikel Pendidikan",
+    subtitle: "An educational article highlighting the importance of education in shaping knowledge, opportunities, and a better future for society.",
+    fullDescription:"An educational article that explores the importance of education in shaping individuals, expanding opportunities, and driving social progress. The work highlights how access to quality education plays a crucial role in developing critical thinking, improving life prospects, and empowering communities. Through research and analysis, this project aims to raise awareness about the value of education as a foundation for personal growth and sustainable societal development.",
     borderColor: "#3B82F6",
     gradient: "linear-gradient(145deg, #3B82F6, #000)",
-    url: "https://github.com/rissss21",
+    url: "https://raff227.wordpress.com/2025/05/12/akar-pendidikan/",
     dad: "100",
   },
   {
     id: 2,
     image: Proyek2,
-    title: "IoT Air Quality Monitoring",
-    subtitle: "A smart IoT system designed to measure and analyze air quality...",
-    fullDescription:"A smart IoT system designed to measure and analyze air quality using sensors connected to a mobile application. The app provides real-time updates on air quality levels, empowering users to make healthier lifestyle decisions based on environmental conditions. This project showcases the potential of IoT in addressing environmental and public health issues.",
+    title: "Portal Berita",
+    subtitle: "A digital platform for publishing and exploring news, providing readers with timely information and in-depth analysis....",
+    fullDescription:"A news portal web application built to publish, manage, and present news content efficiently. The platform focuses on delivering timely updates, insightful articles, and an intuitive user experience. This project highlights full-stack development skills, including front-end design, back-end content management, and database integration, showcasing how technology can enhance access to information.",
     borderColor: "#10B981",
     gradient: "linear-gradient(180deg, #10B981, #000)",
-    url: "https://github.com/rissss21",
+    url: "https://github.com/Itsrafftech/portal-berita-crud.git",
     dad: "200",
   },
   {
     id: 3,
     image: Proyek3,
-    title: "IoT Heartbeat Monitoring System",
-    subtitle: "An IoT-based healthcare project developed to measure and monitor...",
-    fullDescription:"An IoT-based healthcare project developed to measure and monitor heart rate in real-time. The system connects sensors to a local web server, enabling users and healthcare providers to track data directly from a web interface. This project highlights the integration of hardware and software to create efficient medical solutions that can be applied in local clinics or personal health monitoring.",
+    title: "Stocks Screener",
+    subtitle: "A command-line tool designed to track and analyze stock market data in real-time, providing investors with actionable insights directly from the terminal.",
+    fullDescription:"A terminal-based stock market application developed to fetch, analyze, and display financial data for individual stocks and portfolios. Users can monitor real-time price movements, historical trends, and key financial indicators through a command-line interface. This project highlights programming skills in data processing, API integration, and algorithmic analysis, showcasing the ability to deliver practical financial tools even without a web interface.",
     borderColor: "#3B82F6",
     gradient: "linear-gradient(145deg, #3B82F6, #000)",
-    url: "https://github.com/rissss21",
+    url: "https://github.com/Itsrafftech/portorisbang.git",
     dad: "300",
   },
   {
     id: 4,
     image: Proyek4,
     title: "Personal Web Portfolio",
-    subtitle: "An interactive web portfolio showcasing my professional journey...",
-    fullDescription:"An interactive web portfolio showcasing my professional journey, skills, and projects. Designed with a clean yet modern aesthetic, the portfolio highlights my technical expertise in web development, software engineering, and IoT. The site also serves as a central hub for potential employers and collaborators to explore my works, reflecting both my creativity and technical precision.",
+    subtitle: "An interactive web portfolio showcasing my projects, skills, and journey as a full-stack developer and technology enthusiast.",
+    fullDescription:"An interactive web portfolio presenting my experience, technical skills, and completed projects. Built with modern web technologies including React, Next.js, Laravel, and MySQL, the portfolio demonstrates my ability to develop full-stack applications with clean design and user-friendly interfaces. It serves as a central platform for potential collaborators, recruiters, and peers to explore my work, highlighting both my problem-solving skills and dedication to creating practical and impactful digital solutions.",
     borderColor: "#10B981",
     gradient: "linear-gradient(180deg, #10B981, #000)",
-    url: "https://github.com/rissss21",
+    url: "https://github.com/itsrafftech",
     dad: "400",
-  },
-    {
-    id: 5,
-    image: Proyek5,
-    title: "Color Blindness Detection App",
-    subtitle: "A cross-platform application available on both mobile and desktop...",
-    fullDescription:"A cross-platform application available on both mobile and desktop, created to help identify different types of color blindness through color recognition tests. The app provides users with instant results, making it useful for educational, medical, and self-assessment purposes. Its intuitive design and accessibility aim to support individuals in understanding and managing color vision deficiencies.",
-    borderColor: "#3B82F6",
-    gradient: "linear-gradient(145deg, #3B82F6, #000)",
-    url: "https://github.com/rissss21",
-    dad: "500",
-  },
-  {
-    id: 6,
-    image: Proyek6,
-    title: "Coffee Shop Website",
-    subtitle: "A fully functional website designed for a coffee shop, enabling...",
-    fullDescription:"A fully functional website designed for a coffee shop, enabling customers to explore the menu, learn about the shop’s story, and place orders online. The project focused on creating an attractive and modern interface, integrating responsive design for mobile and desktop, and ensuring smooth navigation for users. This website not only improved customer experience but also supported the coffee shop’s digital presence and business growth.",
-    borderColor: "#10B981",
-    gradient: "linear-gradient(180deg, #10B981, #000)",
-    url: "https://github.com/rissss21",
-    dad: "600",
   },
 ];
