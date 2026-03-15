@@ -11,7 +11,12 @@ import AOS from 'aos';
 import ChatRoom from "./components/ChatRoom";
 import 'aos/dist/aos.css'; // You can also use <link> for styles
 // ..
-AOS.init();
+useEffect(() => {
+  AOS.init({
+    once: true,
+    duration: 1000
+  });
+}, []);
 
 function App() {
   const aboutRef = useRef(null);
@@ -72,7 +77,7 @@ function App() {
         <div className="hero grid md:grid-cols-2 items-center pt-10 xl:gap-0 gap-6 grid-cols-1">
           <div className="animate__animated animate__fadeInUp animate__delay-3s">
             <div className="flex items-center gap-3 mb-6 bg bg-zinc-800 w-fit p-4 rounded-2xl">
-              <img src="./assets/fotosmuray1.png" className="w-10 rounded-md" />
+              <img src="/assets/fotosmuray1.png" className="w-10 rounded-md" />
               <q>Make things happen</q>
             </div>
             <h1 className="text-5xl font-bold mb-6">
@@ -87,7 +92,7 @@ function App() {
             />
             <div className="flex items-center sm:gap-4 gap-2">
               <a 
-                href="./assets/CV1.pdf" 
+                href="/assets/CV1.pdf" 
                 download="Muhammad_Rafi_Al_Arifi_CV.pdf" 
                 className="font-semibold bg-[#1a1a1a] p-4 px-6 rounded-full border border-gray-700 hover:bg-[#222] transition-colors"
               >
@@ -107,7 +112,7 @@ function App() {
               handle="rafiallll22"
               status="Online"
               contactText="Contact Me"
-              avatarUrl="./assets/fotosmuray.png"
+              avatarUrl="/assets/fotosmuray.png"
               showUserInfo={true}
               enableTilt={true}
               enableMobileTilt={false}
