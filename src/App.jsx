@@ -9,14 +9,9 @@ import ProjectModal from "./components/ProjectModal/ProjectModal"; // <-- IMPORT
 import Aurora from "./components/Aurora/Aurora";
 import AOS from 'aos';
 import ChatRoom from "./components/ChatRoom";
+import "./index.css";
 import 'aos/dist/aos.css'; // You can also use <link> for styles
 // ..
-useEffect(() => {
-  AOS.init({
-    once: true,
-    duration: 1000
-  });
-}, []);
 
 function App() {
   const aboutRef = useRef(null);
@@ -45,6 +40,7 @@ function App() {
 //  }, []);
 
   useEffect(() => {
+    AOS.init();
     const observer = new IntersectionObserver(
       ([entry]) => {
         if (entry.isIntersecting) {
